@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="mapstogpx.com" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.mapstogpx.com">
+      <text>Sverrir Sigmundarson</text>
+    </link>
+    <!--desc>Map data copyright 2016 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2016</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/21.0165315,105.8277455/21.0164814,105.8276597/21.0164195,105.82803/@21.0165998,105.8258092,17z/data=!4m2!4m1!3e2?hl=en&hl=en</url-->
+    <time>2016-08-20T01:15:10Z</time>
+  </metadata>
+  <wpt lat="21.0164474" lon="105.8279172">
+    <name>WP001</name>
+  </wpt>
+  <wpt lat="21.016436251579" lon="105.82791093094">
+    <name>WP002</name>
+  </wpt>
+  <wpt lat="21.016425103157" lon="105.82790466189">
+    <name>WP003</name>
+  </wpt>
+  <wpt lat="21.016413954736" lon="105.82789839283">
+    <name>WP004</name>
+  </wpt>
+  <wpt lat="21.016402806314" lon="105.82789212377">
+    <name>WP005</name>
+  </wpt>
+  <wpt lat="21.016391657893" lon="105.82788585472">
+    <name>WP006</name>
+  </wpt>
+  <wpt lat="21.016380509472" lon="105.82787958566">
+    <name>WP007</name>
+  </wpt>
+  <wpt lat="21.0163752" lon="105.8278766">
+    <name>WP008</name>
+  </wpt>
+</gpx>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="78H-IK-nz3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="MiD-l8-h3z">
+            <objects>
+                <viewController id="78H-IK-nz3" customClass="ViewController" customModule="PokemonTep" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ga2-3q-mMb"/>
+                        <viewControllerLayoutGuide type="bottom" id="w9I-ZB-cgM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kme-Qk-t7E">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="uNd-oI-Iof">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4A-X5-BF5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="R4A-X5-BF5" firstAttribute="leading" secondItem="kme-Qk-t7E" secondAttribute="leading" id="9NU-tt-lrK"/>
+                            <constraint firstItem="w9I-ZB-cgM" firstAttribute="top" secondItem="R4A-X5-BF5" secondAttribute="bottom" id="JQ4-YP-fXN"/>
+                            <constraint firstItem="uNd-oI-Iof" firstAttribute="top" secondItem="kme-Qk-t7E" secondAttribute="top" id="Kiy-mL-QAL"/>
+                            <constraint firstAttribute="trailing" secondItem="uNd-oI-Iof" secondAttribute="trailing" id="NT8-1w-bsT"/>
+                            <constraint firstItem="w9I-ZB-cgM" firstAttribute="top" secondItem="uNd-oI-Iof" secondAttribute="bottom" id="lkX-Lg-eyE"/>
+                            <constraint firstItem="uNd-oI-Iof" firstAttribute="leading" secondItem="kme-Qk-t7E" secondAttribute="leading" id="mub-AR-yuh"/>
+                            <constraint firstAttribute="trailing" secondItem="R4A-X5-BF5" secondAttribute="trailing" id="uIH-Kt-eLX"/>
+                            <constraint firstItem="R4A-X5-BF5" firstAttribute="top" secondItem="kme-Qk-t7E" secondAttribute="top" id="xsX-m1-h8g"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TbD-oL-Zn7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-178" y="-382"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="336" height="512"/>
+    </resources>
+</document>

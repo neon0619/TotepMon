@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE18C9061D6B5E510007E41F /* 6_pokestops.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EE18C9051D6B5E510007E41F /* 6_pokestops.gpx */; };
+		EE6AAAEE1D5D9A0D00214D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6AAAED1D5D9A0D00214D67 /* AppDelegate.swift */; };
+		EE6AAAF51D5D9A0D00214D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6AAAF31D5D9A0D00214D67 /* Main.storyboard */; };
+		EE6AAAF71D5D9A0D00214D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6AAAF61D5D9A0D00214D67 /* Assets.xcassets */; };
+		EE6AAAFA1D5D9A0D00214D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6AAAF81D5D9A0D00214D67 /* LaunchScreen.storyboard */; };
+		EE9C760A1D6777E200716938 /* charmander_nest.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EE9C76091D6777E200716938 /* charmander_nest.gpx */; };
+		EE9C760C1D6777EE00716938 /* dratini_nest.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EE9C760B1D6777EE00716938 /* dratini_nest.gpx */; };
+		EE9C760E1D6777F900716938 /* eevee_nest.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EE9C760D1D6777F900716938 /* eevee_nest.gpx */; };
+		EE9C76101D67780400716938 /* magicarp_nest.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EE9C760F1D67780400716938 /* magicarp_nest.gpx */; };
+		EE9C76121D67780D00716938 /* magmar_nest.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EE9C76111D67780D00716938 /* magmar_nest.gpx */; };
+		EE9C76141D67781600716938 /* picachu_nest.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EE9C76131D67781600716938 /* picachu_nest.gpx */; };
+		EE9C76161D67782000716938 /* squirtle_nest.gpx in Resources */ = {isa = PBXBuildFile; fileRef = EE9C76151D67782000716938 /* squirtle_nest.gpx */; };
+		EE9C76191D67896900716938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9C76181D67896900716938 /* ViewController.swift */; };
+		EE9C761B1D678DEE00716938 /* gifFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9C761A1D678DEE00716938 /* gifFramework.swift */; };
+		EE9C761D1D678E0500716938 /* ratbu.gif in Resources */ = {isa = PBXBuildFile; fileRef = EE9C761C1D678E0500716938 /* ratbu.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE18C9051D6B5E510007E41F /* 6_pokestops.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 6_pokestops.gpx; sourceTree = "<group>"; };
+		EE6AAAEA1D5D9A0D00214D67 /* PokemonTep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonTep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6AAAED1D5D9A0D00214D67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE6AAAF41D5D9A0D00214D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE6AAAF61D5D9A0D00214D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6AAAF91D5D9A0D00214D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE6AAAFB1D5D9A0D00214D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9C76091D6777E200716938 /* charmander_nest.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = charmander_nest.gpx; sourceTree = "<group>"; };
+		EE9C760B1D6777EE00716938 /* dratini_nest.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dratini_nest.gpx; sourceTree = "<group>"; };
+		EE9C760D1D6777F900716938 /* eevee_nest.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = eevee_nest.gpx; sourceTree = "<group>"; };
+		EE9C760F1D67780400716938 /* magicarp_nest.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = magicarp_nest.gpx; sourceTree = "<group>"; };
+		EE9C76111D67780D00716938 /* magmar_nest.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = magmar_nest.gpx; sourceTree = "<group>"; };
+		EE9C76131D67781600716938 /* picachu_nest.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = picachu_nest.gpx; sourceTree = "<group>"; };
+		EE9C76151D67782000716938 /* squirtle_nest.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = squirtle_nest.gpx; sourceTree = "<group>"; };
+		EE9C76181D67896900716938 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE9C761A1D678DEE00716938 /* gifFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gifFramework.swift; sourceTree = "<group>"; };
+		EE9C761C1D678E0500716938 /* ratbu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ratbu.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6AAAE71D5D9A0D00214D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE6AAAE11D5D9A0D00214D67 = {
+			isa = PBXGroup;
+			children = (
+				EE9C76171D677B3000716938 /* Fucking_Nests */,
+				EE6AAAEC1D5D9A0D00214D67 /* PokemonTep */,
+				EE6AAAEB1D5D9A0D00214D67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6AAAEB1D5D9A0D00214D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6AAAEA1D5D9A0D00214D67 /* PokemonTep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6AAAEC1D5D9A0D00214D67 /* PokemonTep */ = {
+			isa = PBXGroup;
+			children = (
+				EE6AAAED1D5D9A0D00214D67 /* AppDelegate.swift */,
+				EE9C76181D67896900716938 /* ViewController.swift */,
+				EE6AAAF31D5D9A0D00214D67 /* Main.storyboard */,
+				EE6AAAF61D5D9A0D00214D67 /* Assets.xcassets */,
+				EE6AAAF81D5D9A0D00214D67 /* LaunchScreen.storyboard */,
+				EE9C761A1D678DEE00716938 /* gifFramework.swift */,
+				EE9C761C1D678E0500716938 /* ratbu.gif */,
+				EE6AAAFB1D5D9A0D00214D67 /* Info.plist */,
+			);
+			path = PokemonTep;
+			sourceTree = "<group>";
+		};
+		EE9C76171D677B3000716938 /* Fucking_Nests */ = {
+			isa = PBXGroup;
+			children = (
+				EE18C9051D6B5E510007E41F /* 6_pokestops.gpx */,
+				EE9C76151D67782000716938 /* squirtle_nest.gpx */,
+				EE9C76131D67781600716938 /* picachu_nest.gpx */,
+				EE9C76111D67780D00716938 /* magmar_nest.gpx */,
+				EE9C760F1D67780400716938 /* magicarp_nest.gpx */,
+				EE9C760D1D6777F900716938 /* eevee_nest.gpx */,
+				EE9C760B1D6777EE00716938 /* dratini_nest.gpx */,
+				EE9C76091D6777E200716938 /* charmander_nest.gpx */,
+			);
+			name = Fucking_Nests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6AAAE91D5D9A0D00214D67 /* PokemonTep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6AAAFE1D5D9A0D00214D67 /* Build configuration list for PBXNativeTarget "PokemonTep" */;
+			buildPhases = (
+				EE6AAAE61D5D9A0D00214D67 /* Sources */,
+				EE6AAAE71D5D9A0D00214D67 /* Frameworks */,
+				EE6AAAE81D5D9A0D00214D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonTep;
+			productName = PokemonTep;
+			productReference = EE6AAAEA1D5D9A0D00214D67 /* PokemonTep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE6AAAE21D5D9A0D00214D67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "--=_t0tep_=--";
+				TargetAttributes = {
+					EE6AAAE91D5D9A0D00214D67 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = M4AJTJSQ99;
+					};
+				};
+			};
+			buildConfigurationList = EE6AAAE51D5D9A0D00214D67 /* Build configuration list for PBXProject "PokemonTep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE6AAAE11D5D9A0D00214D67;
+			productRefGroup = EE6AAAEB1D5D9A0D00214D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6AAAE91D5D9A0D00214D67 /* PokemonTep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6AAAE81D5D9A0D00214D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6AAAFA1D5D9A0D00214D67 /* LaunchScreen.storyboard in Resources */,
+				EE9C76161D67782000716938 /* squirtle_nest.gpx in Resources */,
+				EE6AAAF71D5D9A0D00214D67 /* Assets.xcassets in Resources */,
+				EE9C761D1D678E0500716938 /* ratbu.gif in Resources */,
+				EE9C76101D67780400716938 /* magicarp_nest.gpx in Resources */,
+				EE18C9061D6B5E510007E41F /* 6_pokestops.gpx in Resources */,
+				EE9C760E1D6777F900716938 /* eevee_nest.gpx in Resources */,
+				EE9C760C1D6777EE00716938 /* dratini_nest.gpx in Resources */,
+				EE9C76121D67780D00716938 /* magmar_nest.gpx in Resources */,
+				EE9C76141D67781600716938 /* picachu_nest.gpx in Resources */,
+				EE6AAAF51D5D9A0D00214D67 /* Main.storyboard in Resources */,
+				EE9C760A1D6777E200716938 /* charmander_nest.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE6AAAE61D5D9A0D00214D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9C76191D67896900716938 /* ViewController.swift in Sources */,
+				EE9C761B1D678DEE00716938 /* gifFramework.swift in Sources */,
+				EE6AAAEE1D5D9A0D00214D67 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE6AAAF31D5D9A0D00214D67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6AAAF41D5D9A0D00214D67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE6AAAF81D5D9A0D00214D67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6AAAF91D5D9A0D00214D67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE6AAAFC1D5D9A0D00214D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE6AAAFD1D5D9A0D00214D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6AAAFF1D5D9A0D00214D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PokemonTep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.PokemonGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EE6AAB001D5D9A0D00214D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PokemonTep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t0tep.app.PokemonGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE6AAAE51D5D9A0D00214D67 /* Build configuration list for PBXProject "PokemonTep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6AAAFC1D5D9A0D00214D67 /* Debug */,
+				EE6AAAFD1D5D9A0D00214D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6AAAFE1D5D9A0D00214D67 /* Build configuration list for PBXNativeTarget "PokemonTep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6AAAFF1D5D9A0D00214D67 /* Debug */,
+				EE6AAB001D5D9A0D00214D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE6AAAE21D5D9A0D00214D67 /* Project object */;
+}
